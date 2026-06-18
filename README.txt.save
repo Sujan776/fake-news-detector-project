@@ -1,0 +1,41 @@
+# Fake News Detector
+
+Fake News Detector is a Machine Learning and NLP-based web application that predicts whether a news headline or article is TRUE or FALSE.
+
+## Features
+
+- TRUE / FALSE news detection
+- Confidence score
+- Prediction probability chart
+- Single news detection
+- Batch CSV prediction
+- Prediction history
+- Download results as CSV
+
+## Tech Stack
+
+- Python
+- Pandas
+- Scikit-learn
+- Joblib
+- Streamlit
+- TF-IDF Vectorizer
+- Logistic Regression
+
+## Dataset
+
+Dataset used: Fake and Real News Dataset from Kaggle.
+
+The dataset contains:
+
+- Fake.csv
+- True.csv
+
+Dataset files are not uploaded because of file size.
+
+## How to Run
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
